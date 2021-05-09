@@ -1,0 +1,98 @@
+body
+{
+    background-position:inherit;
+}
+#img_gif
+{
+    width:100%;
+    height:10%;
+}
+#header_div
+{
+    width:100%;
+    height:30%;
+    font-size: 25px;;
+}
+#instruction_btn
+{
+    font-size: 20px;;
+    border:2px white solid;
+    float:right;
+}
+#tv
+{
+    width:1380px;
+    height:1000px;
+}
+#game_playing
+{
+    height:150px;
+    width:100px;
+}
+
+
+.instruction_image1
+{
+    width:60px;
+    height:60px;
+      
+}
+.instruction_image
+{
+ float:left;
+    width:60px;
+    height:60px;
+    margin-left:100%
+}
+#close_btn
+{
+    font-size: 35px;;
+}
+#instruction-text
+{
+    font-size:35px;
+}
+.modal-dialog
+{
+    width: 65%;
+    font-size: 35px;
+    animation: bounce 1s linear;
+}
+.modal-body
+{
+    text-align: left;
+    font-size: 20px;
+}
+@keyframes bounce
+{
+    20%,50%,80% ,to
+    {
+transform: translateY(0) ;
+    }
+    40%
+    {
+        transform: translateY(-30px);
+    }
+    70%
+    {
+        transform: translateY(-15px);
+    }
+    90%
+    {
+        transform: translateY(-4px);
+    }
+}
+canvas
+{
+border-radius: 100px;
+margin-left:100px;
+margin-top:800px;
+}
+#read_aloud_btn
+{
+   font-size:25px;
+}
+#game_status_btn
+{
+    font-size: 20px;
+}
